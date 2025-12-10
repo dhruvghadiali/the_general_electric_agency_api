@@ -140,3 +140,8 @@ vite.config.ts.timestamp-*
 
 # NPM lockfile (ignore to avoid committing changes)
 package-lock.json
+
+abc.txt
+ 
+# Ignore this file itself
+.gitignore
