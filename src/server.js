@@ -8,7 +8,7 @@ const app = require("./app");
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    app.listen(3000, () => {});
+    app.listen(process.env.PORT, () => {});
   } catch (err) {
     console.log("error: " + err, process.env.DB_URI);
   }

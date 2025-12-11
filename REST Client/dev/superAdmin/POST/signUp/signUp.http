@@ -1,0 +1,6 @@
+### Scenario 001 (Valid credentials)
+POST http://localhost:3000/super-admin/sign-up
+Content-Type: application/json
+
+{}
+
